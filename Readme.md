@@ -78,6 +78,9 @@ Use the `--ignore-market-hours` flag to run the script outside of the standard m
 ![RAG Architecture](docs/T.png)
 
 
+![RAG Architecture](docs/output.png)
+
+
 
 ### Configuration  
    
