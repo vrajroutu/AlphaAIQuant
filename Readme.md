@@ -102,7 +102,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
    
 ## Disclaimer  
   
-> :warning: **This project is for educational purposes only. It is not intended for real trading.** Please conduct your own thorough research before making any investment decisions.  
+> :warning: **Important Notice**: This project, including all code, data, and information contained within it, is provided for educational and informational purposes only. It is not intended for actual trading or investment purposes. The creators and contributors of this project do not offer financial advice, endorse any specific trading or investment strategies, or guarantee the accuracy, completeness, or timeliness of any information or data provided.  
+  
+> :warning: **Risk Acknowledgment**: Trading stocks, securities, and other financial instruments involves substantial risk of loss and is not suitable for every investor. The valuation of stocks and securities may fluctuate, and as a result, investors may lose more than their original investment. The use of machine learning, technical analysis, or any other method within this project does not eliminate the inherent risks of trading.  
+  
+> :warning: **No Professional Advice**: The information provided in this project does not constitute investment advice, financial advice, trading advice, or any other sort of advice, and you should not treat any of the project's content as such. The project creators and contributors are not registered financial advisors and do not offer any personalized financial advice. Before making any financial decisions, you should consult with a qualified professional and conduct your own due diligence.  
+  
+> :warning: **Liability**: The creators and contributors of this project will not be held liable for any losses or damages resulting from the use of this project, including but not limited to trading or investment decisions based on the use of this project's code, data, or information.  
+  
+By using this project, you acknowledge and agree to the terms of this disclaimer. If you do not agree with them, you should not use this project.  
 
 
 ## Educational Notes on Key Components  
