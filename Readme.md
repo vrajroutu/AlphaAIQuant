@@ -75,7 +75,7 @@ python main.py --ignore-market-hours
 This flexibility ensures that the system can be utilized for a wide range of purposes, including but not limited to, after-hours trading strategy development, historical data analysis, and system testing.
 Use the `--ignore-market-hours` flag to run the script outside of the standard market hours for testing purposes.  
 
-![System Architecture] (docs/T.png)
+![RAG Architecture](docs/T.png)
 
 
 
