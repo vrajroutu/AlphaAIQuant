@@ -3,6 +3,8 @@
 This repository contains a comprehensive Python application designed for stock market analysis, sentiment analysis, and automated alerting through Slack. It integrates various APIs including Yahoo Finance for stock data, Bing Search for market news, Slack for notifications, and Azure OpenAI for sentiment analysis and prediction. The application is structured to perform technical analysis, sentiment analysis, and machine learning predictions to inform stock trading decisions.  
    
 ## Features  
+
+\!\[System Architecture\] \(/docs/OAI_2024 - Page 1.png)
    
 - **Stock Data Fetching**: Downloads historical stock data from Yahoo Finance.  
 - **Technical Analysis**: Calculates technical indicators such as Moving Averages, RSI, and MACD.  
@@ -26,8 +28,8 @@ This repository contains a comprehensive Python application designed for stock m
 1. Clone the repository:  
    
 ```bash  
-git clone https://github.com/yourusername/stock-analysis-alert-system.git  
-cd stock-analysis-alert-system  
+git clone https://github.com/vrajroutu/AlphaAIQuant.git  
+cd AlphaAIQuant  
 ```  
    
 2. Install required Python packages:  
@@ -49,16 +51,34 @@ AZURE_OPENAI_DEPLOYMENT=your-azure-openai-deployment
    
 4. Add `.env` to your `.gitignore` file to ensure your secrets are not checked into version control.  
    
-### Usage  
-   
-To run the stock analysis and alert system, execute the main script:  
-   
+## Usage  
+     
+The stock analysis and alert system is designed to provide flexibility in operation, catering to both real-time market analysis during trading hours and after-hours research or testing. Here's how to run the system in both scenarios:  
+  
+### During Market Hours  
+  
+To run the system in alignment with the stock market's trading hours, ensuring that analysis and alerts are generated based on live data, simply execute the main script without any additional flags:  
+  
 ```bash  
+python quant.py  
+```
+
+This command runs the system under its default configuration, which is optimized for live market conditions.
+
+### After Market Hours
+ 
+For conducting analysis or testing outside of standard trading hours, you can bypass the market hours check by using the --ignore-market-hours flag. This allows the system to operate as if the market were open, enabling after-hours data processing and analysis:
+
+```bash 
 python main.py --ignore-market-hours  
-```  
-   
+ ```
+This flexibility ensures that the system can be utilized for a wide range of purposes, including but not limited to, after-hours trading strategy development, historical data analysis, and system testing.
 Use the `--ignore-market-hours` flag to run the script outside of the standard market hours for testing purposes.  
-   
+
+\!\[System Architecture\] \(/docs/T.png)
+
+
+
 ### Configuration  
    
 - **Slack Configuration**: Set your Slack Bot Token and Channel ID in the `.env` file.  
