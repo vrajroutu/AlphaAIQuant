@@ -4,7 +4,7 @@ This repository contains a comprehensive Python application designed for stock m
    
 ## Features  
 
-![System Architecture\] \(docs/OAI_2024.png)
+![System Architecture] (docs/OAI_2024.png)
    
 - **Stock Data Fetching**: Downloads historical stock data from Yahoo Finance.  
 - **Technical Analysis**: Calculates technical indicators such as Moving Averages, RSI, and MACD.  
@@ -75,7 +75,7 @@ python main.py --ignore-market-hours
 This flexibility ensures that the system can be utilized for a wide range of purposes, including but not limited to, after-hours trading strategy development, historical data analysis, and system testing.
 Use the `--ignore-market-hours` flag to run the script outside of the standard market hours for testing purposes.  
 
-![System Architecture\] \(/docs/T.png)
+![System Architecture] (docs/T.png)
 
 
 
