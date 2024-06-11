@@ -4,7 +4,7 @@ This repository contains a comprehensive Python application designed for stock m
    
 ## Features  
 
-\!\[System Architecture\] \(/docs/OAI_2024 - Page 1.png)
+\!\[System Architecture\] \(/docs/OAI_2024.png)
    
 - **Stock Data Fetching**: Downloads historical stock data from Yahoo Finance.  
 - **Technical Analysis**: Calculates technical indicators such as Moving Averages, RSI, and MACD.  
