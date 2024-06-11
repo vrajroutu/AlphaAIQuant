@@ -1,0 +1,11 @@
+yfinance  
+pandas  
+matplotlib  
+numpy  
+schedule  
+slack_sdk  
+openai  
+langchain_community  
+textblob  
+scikit-learn  
+argparse 
